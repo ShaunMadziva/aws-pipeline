@@ -1,6 +1,6 @@
 version: 0.2
 
-environment:
+env:
   secrets-manager:
     SECRET_USERNAME: "pipeline-docker-credentials:username"
     SECRET_PASSWORD: "pipeline-docker-credentials:password"
