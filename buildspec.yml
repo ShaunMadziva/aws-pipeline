@@ -5,7 +5,7 @@ env:
     SECRET_USERNAME: "pipeline-docker-credentials:username"
     SECRET_PASSWORD: "pipeline-docker-credentials:password"
 
-phase:
+phases:
   build:
     commands:
       - echo "Hello World from buildspec.yml"
