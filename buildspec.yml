@@ -10,6 +10,6 @@ phases:
     commands:
       - echo "Hello World from buildspec.yml"
       - echo "$SECRET_USERNAME"
-  artifacts:
-    files:
-      - Dockerfile
+artifacts:
+  files:
+    - Dockerfile
